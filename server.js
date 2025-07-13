@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Rota Raíz
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'views', 'index.html'));
+  res.sendFile(path.join(__dirname, 'views', 'index.html',));
 });
 
 // Rota de sugestão
